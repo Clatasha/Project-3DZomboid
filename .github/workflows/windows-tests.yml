@@ -1,0 +1,17 @@
+name: Windows installer tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse and test Windows PowerShell installer
+        shell: powershell
+        run: |
+          $errors = $null
+          $tokens = $null
+          [System.Management.Automation.Language.Parser]::ParseFile("$PWD/Setup.ps1", [ref]$tokens, [ref]$errors) | Out-Null
+          if ($errors.Count) { $errors | Format-List; throw 'PowerShell syntax check failed' }
+          & ./Setup.ps1 -SelfTest
