@@ -5,10 +5,11 @@ A Windows setup helper for playing Project Zomboid in first or third person usin
 **Targets Build 42.21.** Supports Steam installations and standalone game folders.
 
 [Download v0.1.1](https://github.com/Clatasha/Project-3DZomboid/releases/tag/v0.1.1)
-optional Cracked version that works with it https://www.mediafire.com/file/ymx8jkn26pip2ah/Project.Zomboid.v42.21.Early.Access.rar/file
+
 ## Install
 
 1. Download `PZ-3D-Setup-v0.1.1.zip` from Releases and extract the whole ZIP.
+1.b Download optional Working verified Cracked that works with it https://www.mediafire.com/file/ymx8jkn26pip2ah/Project.Zomboid.v42.21.Early.Access.rar/file 
 2. Run `Start-Setup.cmd`.
 3. Check the detected game folder, or choose it with **Browse**.
 4. Remove any old ZombieBuddy agent launch arguments and confirm the checkbox.
