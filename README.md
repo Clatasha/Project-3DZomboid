@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Clatasha/Project-3DZomboid/refs/heads/main/project-zomboid.png" width="100%" alt="Project Zomboid 3D">
+</p>
+
 # Project 3DZomboid
 
 A Windows setup helper for playing Project Zomboid in first or third person using Project Viewpoint and ZombieBuddy.
